@@ -2,7 +2,7 @@ import typer
 import json
 import config
 from train_model import train_one_model, train_all_models
-from registry.model_registry import get_best_model_path
+from model_registry import get_best_model_path
 from data.loader import load_and_save_data
 
 cli = typer.Typer()
@@ -10,9 +10,13 @@ cli = typer.Typer()
 
 @cli.command()
 def train(
-    model: str = typer.Option("randomforest", help="Model type"), version: str = None
+    model: str = typer.Option("logistic", help="Model type"),
+    version: str = None,
+    random_search: bool = typer.Option(
+        False, "--random-search", help="Enable RandomizedSearchCV"
+    ),
 ):
-    result = train_one_model(model, version)
+    result = train_one_model(model, version, use_random_search=random_search)
     print(f"[{result['name']}] Model saved to: {result['local_path']}")
     print(f"[{result['name']}] Copied to predictor: {result['predictor_path']}")
     print(f"[{result['name']}] Symlinked as latest_model_{result['name']}.pkl")
@@ -20,8 +24,12 @@ def train(
 
 
 @cli.command()
-def train_all():
-    results = train_all_models()
+def train_all(
+    random_search: bool = typer.Option(
+        False, "--random-search", help="Enable RandomizedSearchCV"
+    )
+):
+    results = train_all_models(use_random_search=random_search)
     for r in results:
         print(f"[{r['name']}] Model saved to: {r['local_path']}")
         print(f"[{r['name']}] Copied to predictor: {r['predictor_path']}")
