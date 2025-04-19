@@ -16,6 +16,22 @@ services:
     networks:
       - backend
   
+  data-pipeline:
+    build:
+      context: .
+      dockerfile: services/data-pipeline/Dockerfile
+    volumes:
+      - ./services/data-pipeline:/app
+      - ./storage:/app/tmp/data
+    env_file:
+      - ./services/data-pipeline/.env
+    depends_on:
+      - db
+    networks:
+      - backend
+    environment:
+      - CRON_ENABLED=true
+  
   ml-predictor:
     build:
       context: .
