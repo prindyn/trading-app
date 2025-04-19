@@ -1,0 +1,10 @@
+# Core Web Framework
+fastapi==0.110.0        # Web API framework for building the ML predictor service
+uvicorn[standard]==0.29.0  # ASGI server for running FastAPI app in production
+
+# Data Manipulation & Math
+pandas==2.2.1           # DataFrame support, used for candle data preprocessing
+numpy==1.26.4           # Numerical operations, used in feature engineering
+
+# Machine Learning
+joblib==1.3.2            # For loading scikit-learn models (e.g., .pkl files)

@@ -15,6 +15,22 @@ services:
       - trade
     networks:
       - backend
+  
+  ml-predictor:
+    build:
+      context: .
+      dockerfile: services/ml-predictor/Dockerfile
+    ports:
+      - "8004:8000"
+    volumes:
+      - ./services/ml-predictor:/app
+      - ./services/ml-predictor/app/models:/app/models
+    env_file:
+      - ./services/ml-predictor/.env
+    # depends_on:
+    #   - db
+    networks:
+      - backend
 
   user:
     build:
