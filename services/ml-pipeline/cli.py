@@ -1,66 +1,40 @@
 import typer
-import datetime
 import json
-from train_model import get_model, get_all_models
-from store.model_store import save_model
-from registry.model_registry import log_model_entry, get_best_model_path
-from registry.model_registry import REGISTRY_PATH
 import config
+from train_model import train_one_model, train_all_models
+from registry.model_registry import get_best_model_path
+from data.loader import load_and_save_data
 
 cli = typer.Typer()
 
 
 @cli.command()
 def train(
-    model: str = typer.Option("randomforest", help="Model type"),
-    version: str = datetime.datetime.now().strftime("%Y%m%d%H%M"),
+    model: str = typer.Option("randomforest", help="Model type"), version: str = None
 ):
-    model_instance = get_model(model)
-    model_instance.train()
-    accuracy = model_instance.score()
-    local_path, predictor_path = save_model(
-        model_instance.model,
-        version,
-        config.MODEL_DIR,
-        config.PREDICTOR_MODEL_DIR,
-        name=model,
-    )
-    log_model_entry(
-        model, version, accuracy, predictor_path, model_instance.get_params()
-    )
-    print(f"Model saved to: {local_path}")
-    print(f"Copied to predictor service: {predictor_path}")
-    print(f"Symlinked as latest_model_{model}.pkl")
-    print(f"Accuracy: {accuracy:.4f}")
+    result = train_one_model(model, version)
+    print(f"[{result['name']}] Model saved to: {result['local_path']}")
+    print(f"[{result['name']}] Copied to predictor: {result['predictor_path']}")
+    print(f"[{result['name']}] Symlinked as latest_model_{result['name']}.pkl")
+    print(f"[{result['name']}] Accuracy: {result['accuracy']:.4f}")
 
 
 @cli.command()
 def train_all():
-    version = datetime.datetime.now().strftime("%Y%m%d%H%M")
-    models = get_all_models()
-    for name, instance in models.items():
-        instance.train()
-        accuracy = instance.score()
-        local_path, predictor_path = save_model(
-            instance.model,
-            version,
-            config.MODEL_DIR,
-            config.PREDICTOR_MODEL_DIR,
-            name=name,
-        )
-        log_model_entry(name, version, accuracy, predictor_path, instance.get_params())
-        print(f"[{name}] Model saved to: {local_path}")
-        print(f"[{name}] Copied to predictor: {predictor_path}")
-        print(f"[{name}] Symlinked as latest_model_{name}.pkl")
-        print(f"[{name}] Accuracy: {accuracy:.4f}")
+    results = train_all_models()
+    for r in results:
+        print(f"[{r['name']}] Model saved to: {r['local_path']}")
+        print(f"[{r['name']}] Copied to predictor: {r['predictor_path']}")
+        print(f"[{r['name']}] Symlinked as latest_model_{r['name']}.pkl")
+        print(f"[{r['name']}] Accuracy: {r['accuracy']:.4f}")
 
 
 @cli.command()
 def list_registry():
-    if not REGISTRY_PATH.exists():
+    if not config.MODEL_REGISTRY_PATH.exists():
         print("No models registered yet.")
         return
-    with open(REGISTRY_PATH, "r") as f:
+    with open(config.MODEL_REGISTRY_PATH, "r") as f:
         data = json.load(f)
     print(f"\n  Registered Models ({len(data)} total):\n")
     for entry in sorted(data, key=lambda e: e["timestamp"], reverse=True):
@@ -80,6 +54,15 @@ def best_path(model: str):
         print(f"Best model for '{model}': {best}")
     else:
         print(f"No models found for '{model}'")
+
+
+@cli.command()
+def fetch_data(
+    source="yfinance", symbol="BTC-USD", interval="1h", start="2023-01-01", end=None
+):
+    load_and_save_data(
+        source=source, symbol=symbol, interval=interval, start=start, end=end
+    )
 
 
 if __name__ == "__main__":

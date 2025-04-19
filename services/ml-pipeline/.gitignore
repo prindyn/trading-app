@@ -1,2 +1,3 @@
 *.pkl
 model_registry.json
+data/source/*.csv
