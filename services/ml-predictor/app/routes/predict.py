@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from app.database.schemas import PredictionRequest, PredictionResponse
 from app.services.feature_engineer import extract_features
-from app.models.predictor import model
+from app.services.model_service import model
 
 router = APIRouter()
 
