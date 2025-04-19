@@ -1,0 +1,14 @@
+[
+    { "id": "d2170106-365e-47a1-a2e2-0d92f28a3a80", "name": "Binance" },
+    { "id": "933aab05-7de3-4d35-9f98-ee2c28992472", "name": "Binance US" },
+    { "id": "c793c5c2-2f4b-49df-b1c3-1f0f818cfa01", "name": "Coinbase" },
+    { "id": "b6517f4f-8fc9-4a28-89c6-9bc8ae91255d", "name": "Kraken" },
+    { "id": "e810e053-1b3d-49f3-8170-ec85c2c4d687", "name": "KuCoin" },
+    { "id": "f9aa46c5-05ec-42e4-8c4f-b10ea877b8ae", "name": "Bybit" },
+    { "id": "a8a12670-57c8-4705-b2f2-93f9ab1a08c4", "name": "Bitfinex" },
+    { "id": "db0ff80e-1a97-4b4f-b1e3-f097bc80ebc3", "name": "OKX" },
+    { "id": "5cc13832-1333-41db-a1e3-d130fdc88a1b", "name": "Huobi" },
+    { "id": "e4fc14ab-b2d4-4c8b-bfa9-9a73d59312e4", "name": "Bitstamp" },
+    { "id": "a70f3774-3cd4-4e38-b76e-441ddef5f4b2", "name": "Gate.io" }
+  ]
+  

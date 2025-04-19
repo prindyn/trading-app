@@ -1,0 +1,78 @@
+services:
+
+  api-gw:
+    build:
+      context: .
+      dockerfile: services/api-gw/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+    - ./services/api-gw:/app
+    env_file:
+      - ./services/api-gw/.env
+    depends_on:
+      - user
+      - trade
+    networks:
+      - backend
+
+  user:
+    build:
+      context: .
+      dockerfile: services/user/Dockerfile
+    restart: on-failure
+    ports:
+      - "8000"
+    env_file:
+      - ./services/user/.env
+    depends_on:
+      - db
+    networks:
+      - backend
+
+  trade:
+    build:
+      context: .
+      dockerfile: services/trade/Dockerfile
+    restart: on-failure
+    ports:
+      - "8000"
+    volumes:
+    - ./services/trade:/app
+    env_file:
+      - ./services/trade/.env
+    depends_on:
+      - db
+    networks:
+      - backend
+
+  notification:
+    build:
+      context: .
+      dockerfile: services/notification/Dockerfile
+    ports:
+      - "8000"
+    env_file:
+      - ./services/notification/.env
+    networks:
+      - backend
+
+  db:
+    image: postgres:15
+    restart: always
+    env_file:
+      - ./db/.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    networks:
+      - backend
+
+volumes:
+  pgdata:
+
+networks:
+  backend:
+    driver: bridge

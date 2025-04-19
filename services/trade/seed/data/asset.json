@@ -1,0 +1,744 @@
+[
+  {
+    "id": "90282cff-ba40-45bb-86fd-f81f5297400d",
+    "symbol": "XRP",
+    "name": "XRP",
+    "image": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png",
+    "is_fiat": false
+  },
+  {
+    "id": "8452b7cc-d2a2-44f5-be9b-e52e430a6145",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "image": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "31edefce-787b-4fa8-953b-d671212b176c",
+    "symbol": "BTC",
+    "name": "Bitcoin",
+    "image": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png",
+    "is_fiat": false
+  },
+  {
+    "id": "ae83d2c0-4db2-401f-9c31-63ab84b5d90d",
+    "symbol": "BCH",
+    "name": "Bitcoin Cash",
+    "image": "https://coin-images.coingecko.com/coins/images/780/large/bitcoin-cash-circle.png",
+    "is_fiat": false
+  },
+  {
+    "id": "b3cd3d97-7ee2-4dc1-8ea2-6fc552a9bd2d",
+    "symbol": "LTC",
+    "name": "Litecoin",
+    "image": "https://coin-images.coingecko.com/coins/images/2/large/litecoin.png",
+    "is_fiat": false
+  },
+  {
+    "id": "9c34dfe9-b814-4d0c-a1fd-c729aeba9476",
+    "symbol": "FIL",
+    "name": "Filecoin",
+    "image": "https://coin-images.coingecko.com/coins/images/12817/large/filecoin.png",
+    "is_fiat": false
+  },
+  {
+    "id": "81259d3e-5b2e-455a-9dcb-531351fd4332",
+    "symbol": "FDUSD",
+    "name": "First Digital USD",
+    "image": "https://coin-images.coingecko.com/coins/images/31079/large/FDUSD_icon_black.png",
+    "is_fiat": false
+  },
+  {
+    "id": "b114d7b9-8cdd-432a-a0d6-e771f6421fd5",
+    "symbol": "VIRTUAL",
+    "name": "Virtuals Protocol",
+    "image": "https://coin-images.coingecko.com/coins/images/34057/large/LOGOMARK.png",
+    "is_fiat": false
+  },
+  {
+    "id": "9a2c6700-1716-4b0f-9251-fe0bb6b41610",
+    "symbol": "CAKE",
+    "name": "PancakeSwap",
+    "image": "https://coin-images.coingecko.com/coins/images/12632/large/pancakeswap-cake-logo_%281%29.png",
+    "is_fiat": false
+  },
+  {
+    "id": "fef31214-fe46-4998-b5b7-88279112d6be",
+    "symbol": "DOGE",
+    "name": "Binance-Peg Dogecoin",
+    "image": "https://coin-images.coingecko.com/coins/images/15768/large/dogecoin.png",
+    "is_fiat": false
+  },
+  {
+    "id": "074a93db-949e-4cbd-930d-d049a550a422",
+    "symbol": "NEAR",
+    "name": "NEAR Protocol",
+    "image": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "e9a01155-73a8-4924-8985-2a01141d9248",
+    "symbol": "BNB",
+    "name": "BNB",
+    "image": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png",
+    "is_fiat": false
+  },
+  {
+    "id": "d4eedeec-650b-4398-9653-3db160339c10",
+    "symbol": "BONK",
+    "name": "Bonk",
+    "image": "https://coin-images.coingecko.com/coins/images/28600/large/bonk.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "018833be-4f3f-4538-9892-e3125bd9905b",
+    "symbol": "BERA",
+    "name": "Berachain",
+    "image": "https://coin-images.coingecko.com/coins/images/25235/large/BERA.png",
+    "is_fiat": false
+  },
+  {
+    "id": "2c687c6c-b998-4a20-ad97-b6859129ea94",
+    "symbol": "SOL",
+    "name": "Solana",
+    "image": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png",
+    "is_fiat": false
+  },
+  {
+    "id": "50ec4d20-484b-4053-bf99-e1f07748fd8f",
+    "symbol": "HBAR",
+    "name": "Hedera",
+    "image": "https://coin-images.coingecko.com/coins/images/3688/large/hbar.png",
+    "is_fiat": false
+  },
+  {
+    "id": "cc75d78b-cf23-445d-8906-00a2396dd703",
+    "symbol": "DOT",
+    "name": "Polkadot",
+    "image": "https://coin-images.coingecko.com/coins/images/12171/large/polkadot.png",
+    "is_fiat": false
+  },
+  {
+    "id": "d44ce2bb-a463-49f2-914c-fd6d28c82e80",
+    "symbol": "ADA",
+    "name": "Cardano",
+    "image": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png",
+    "is_fiat": false
+  },
+  {
+    "id": "d06e0541-82c6-4eba-9fc4-0037e8d25810",
+    "symbol": "ENA",
+    "name": "Ethena",
+    "image": "https://coin-images.coingecko.com/coins/images/36530/large/ethena.png",
+    "is_fiat": false
+  },
+  {
+    "id": "bf451399-46d3-4e67-acc1-aae13203c434",
+    "symbol": "RSR",
+    "name": "Reserve Rights",
+    "image": "https://coin-images.coingecko.com/coins/images/8365/large/RSR_Blue_Circle_1000.png",
+    "is_fiat": false
+  },
+  {
+    "id": "ffb87b6a-5610-42be-bae1-9e38e5148559",
+    "symbol": "BABY",
+    "name": "Babylon",
+    "image": "https://coin-images.coingecko.com/coins/images/55092/large/Baby-Symbol-Mint.webp",
+    "is_fiat": false
+  },
+  {
+    "id": "f2f703a1-aed4-4c40-9f17-d8d36e0e2703",
+    "symbol": "ATOM",
+    "name": "Cosmos Hub",
+    "image": "https://coin-images.coingecko.com/coins/images/1481/large/cosmos_hub.png",
+    "is_fiat": false
+  },
+  {
+    "id": "fb454765-acae-4b79-9d7a-1eb209e7bde1",
+    "symbol": "FLOKI",
+    "name": "FLOKI",
+    "image": "https://coin-images.coingecko.com/coins/images/16746/large/PNG_image.png",
+    "is_fiat": false
+  },
+  {
+    "id": "28ce4f89-3dbc-48ae-a7fa-3378929ca681",
+    "symbol": "UNI",
+    "name": "Uniswap",
+    "image": "https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "ae898978-540b-4bd4-9f06-c4fd846ce051",
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "image": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png",
+    "is_fiat": false
+  },
+  {
+    "id": "3d7e4fbe-fe37-4e54-87d9-d5a6e2428cb8",
+    "symbol": "TRUMP",
+    "name": "Official Trump",
+    "image": "https://coin-images.coingecko.com/coins/images/53746/large/trump.png",
+    "is_fiat": false
+  },
+  {
+    "id": "f0e30220-c7eb-474e-91fe-3abc8fb0e74d",
+    "symbol": "PENDLE",
+    "name": "Pendle",
+    "image": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png",
+    "is_fiat": false
+  },
+  {
+    "id": "8c0e20c9-f8d1-47b8-a056-2c1381ebd7b5",
+    "symbol": "USDT",
+    "name": "Mantle Bridged USDT (Mantle)",
+    "image": "https://coin-images.coingecko.com/coins/images/35069/large/logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "758f98cd-8c3c-4337-8136-821c4bbf0291",
+    "symbol": "CRV",
+    "name": "Curve DAO",
+    "image": "https://coin-images.coingecko.com/coins/images/12124/large/Curve.png",
+    "is_fiat": false
+  },
+  {
+    "id": "db13fd1e-86ec-4ad2-a7a3-9b74cc0dedfc",
+    "symbol": "SEI",
+    "name": "Sei",
+    "image": "https://coin-images.coingecko.com/coins/images/28205/large/Sei_Logo_-_Transparent.png",
+    "is_fiat": false
+  },
+  {
+    "id": "db8684b4-3898-4b25-be2f-ed00d1fccb29",
+    "symbol": "AVAX",
+    "name": "Avalanche",
+    "image": "https://coin-images.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png",
+    "is_fiat": false
+  },
+  {
+    "id": "1e87bba1-650d-4907-8817-88d9a21871d4",
+    "symbol": "S",
+    "name": "Sonic (prev. FTM)",
+    "image": "https://coin-images.coingecko.com/coins/images/38108/large/200x200_Sonic_Logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "e7c42557-2cf0-4b82-9c6a-891f2ed8901c",
+    "symbol": "CKB",
+    "name": "Nervos Network",
+    "image": "https://coin-images.coingecko.com/coins/images/9566/large/Nervos_White.png",
+    "is_fiat": false
+  },
+  {
+    "id": "b28962a0-adbc-4cdc-a5aa-73ca958f25df",
+    "symbol": "JUP",
+    "name": "Jupiter",
+    "image": "https://coin-images.coingecko.com/coins/images/34188/large/jup.png",
+    "is_fiat": false
+  },
+  {
+    "id": "dd8c4b45-dd18-4884-a4c7-0cb6de0f034c",
+    "symbol": "OM",
+    "name": "MANTRA",
+    "image": "https://coin-images.coingecko.com/coins/images/12151/large/OM_Token.png",
+    "is_fiat": false
+  },
+  {
+    "id": "7842d5c5-81a4-46b0-a303-038703e0ad29",
+    "symbol": "SUI",
+    "name": "Sui",
+    "image": "https://coin-images.coingecko.com/coins/images/26375/large/sui-ocean-square.png",
+    "is_fiat": false
+  },
+  {
+    "id": "701f451d-cdfa-419e-b75a-dae9271d6d69",
+    "symbol": "TRX",
+    "name": "TRON",
+    "image": "https://coin-images.coingecko.com/coins/images/1094/large/tron-logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "c29fb49e-5db7-4360-981c-bd9d063ae7fb",
+    "symbol": "ZEC",
+    "name": "Zcash",
+    "image": "https://coin-images.coingecko.com/coins/images/486/large/circle-zcash-color.png",
+    "is_fiat": false
+  },
+  {
+    "id": "1013e750-e6ec-4785-a44d-95bfb6fa889f",
+    "symbol": "AAVE",
+    "name": "Aave",
+    "image": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png",
+    "is_fiat": false
+  },
+  {
+    "id": "6a462eab-e53b-469d-ab0b-38a703d20a97",
+    "symbol": "ICP",
+    "name": "Internet Computer",
+    "image": "https://coin-images.coingecko.com/coins/images/14495/large/Internet_Computer_logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "1928a739-75bb-49ff-99ad-a68e1e050057",
+    "symbol": "VET",
+    "name": "VeChain",
+    "image": "https://coin-images.coingecko.com/coins/images/1167/large/VET.png",
+    "is_fiat": false
+  },
+  {
+    "id": "6351b1a0-74b3-4fcd-9d97-e2447cb327a7",
+    "symbol": "RAY",
+    "name": "Raydium",
+    "image": "https://coin-images.coingecko.com/coins/images/13928/large/PSigc4ie_400x400.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "956a88d6-9e54-4332-8160-b2cbd91207dc",
+    "symbol": "TAO",
+    "name": "Bittensor",
+    "image": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg",
+    "is_fiat": false
+  },
+  {
+    "id": "0a71ba44-8c8b-4bcd-9603-776029f22cac",
+    "symbol": "ALGO",
+    "name": "Algorand",
+    "image": "https://coin-images.coingecko.com/coins/images/4380/large/download.png",
+    "is_fiat": false
+  },
+  {
+    "id": "5fc6783b-84ea-493a-bc30-f0144cb1b46c",
+    "symbol": "PENGU",
+    "name": "Pudgy Penguins",
+    "image": "https://coin-images.coingecko.com/coins/images/52622/large/PUDGY_PENGUINS_PENGU_PFP.png",
+    "is_fiat": false
+  },
+  {
+    "id": "292fe8a2-09e0-4207-a772-37ce7c23b3b5",
+    "symbol": "RENDER",
+    "name": "Render",
+    "image": "https://coin-images.coingecko.com/coins/images/11636/large/rndr.png",
+    "is_fiat": false
+  },
+  {
+    "id": "3b1033f1-9fa5-4197-aac8-eb471ca8a96c",
+    "symbol": "LAYER",
+    "name": "Solayer",
+    "image": "https://coin-images.coingecko.com/coins/images/53498/large/Layer_320x320.png",
+    "is_fiat": false
+  },
+  {
+    "id": "3907dcc4-89ff-4da8-8f4f-e1a0133e5cd2",
+    "symbol": "MOVE",
+    "name": "Movement",
+    "image": "https://coin-images.coingecko.com/coins/images/39345/large/movement-testnet-token.png",
+    "is_fiat": false
+  },
+  {
+    "id": "5a333b04-e994-4272-be0b-093dfd8b3154",
+    "symbol": "JASMY",
+    "name": "JasmyCoin",
+    "image": "https://coin-images.coingecko.com/coins/images/13876/large/JASMY200x200.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "1234a69c-5b2e-43a7-837b-b580e2eac7c3",
+    "symbol": "USDC",
+    "name": "Binance Bridged USDC (BNB Smart Chain)",
+    "image": "https://coin-images.coingecko.com/coins/images/35220/large/USDC.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "7c33a6ea-f1f4-4510-9a5d-5645e8a4c83f",
+    "symbol": "EOS",
+    "name": "EOS",
+    "image": "https://coin-images.coingecko.com/coins/images/738/large/CG_EOS_Icon.png",
+    "is_fiat": false
+  },
+  {
+    "id": "423e9702-ecc6-4f4c-9d58-b75333dddcf7",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg",
+    "is_fiat": false
+  },
+  {
+    "id": "c58315e4-b4ba-47c7-8c75-d09615be3043",
+    "symbol": "INJ",
+    "name": "Injective",
+    "image": "https://coin-images.coingecko.com/coins/images/12882/large/Other_200x200.png",
+    "is_fiat": false
+  },
+  {
+    "id": "ef559a67-5355-4b5b-9912-66a6d72fe13e",
+    "symbol": "FARTCOIN",
+    "name": "Fartcoin",
+    "image": "https://coin-images.coingecko.com/coins/images/50891/large/fart.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "731eaec1-4ee5-4bc4-a314-0df6bfa11f1d",
+    "symbol": "XMR",
+    "name": "Monero",
+    "image": "https://coin-images.coingecko.com/coins/images/69/large/monero_logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "72595a21-47cf-48a4-97ed-8b1f24e370df",
+    "symbol": "SPX",
+    "name": "SPX6900",
+    "image": "https://coin-images.coingecko.com/coins/images/31401/large/centeredcoin_%281%29.png",
+    "is_fiat": false
+  },
+  {
+    "id": "deb0660d-0093-46e8-a53e-39b0e378fbbb",
+    "symbol": "SUPER",
+    "name": "SuperVerse",
+    "image": "https://coin-images.coingecko.com/coins/images/14040/large/SV-Logo-200x200.png",
+    "is_fiat": false
+  },
+  {
+    "id": "8c9a7fdd-3b0c-4adf-9d75-eb903274106d",
+    "symbol": "MORPHO",
+    "name": "Morpho",
+    "image": "https://coin-images.coingecko.com/coins/images/29837/large/Morpho-token-icon.png",
+    "is_fiat": false
+  },
+  {
+    "id": "5084e56e-a377-4e18-ad04-9010a4489412",
+    "symbol": "QNT",
+    "name": "Quant",
+    "image": "https://coin-images.coingecko.com/coins/images/3370/large/5ZOu7brX_400x400.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "4e5a19ff-bf96-409d-aad3-4719772357aa",
+    "symbol": "TIA",
+    "name": "Celestia",
+    "image": "https://coin-images.coingecko.com/coins/images/31967/large/tia.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "984c718f-a6b0-47b9-a613-38fff0431d01",
+    "symbol": "KAS",
+    "name": "Kaspa",
+    "image": "https://coin-images.coingecko.com/coins/images/25751/large/kaspa-icon-exchanges.png",
+    "is_fiat": false
+  },
+  {
+    "id": "20a82e3f-03ef-4610-8c8f-8cd58e2e4d06",
+    "symbol": "DAI",
+    "name": "Dai",
+    "image": "https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png",
+    "is_fiat": false
+  },
+  {
+    "id": "167bde26-9fca-4a53-80cc-e6242105c24e",
+    "symbol": "HNT",
+    "name": "Helium",
+    "image": "https://coin-images.coingecko.com/coins/images/4284/large/Helium_HNT.png",
+    "is_fiat": false
+  },
+  {
+    "id": "c1d79651-3b3f-4425-8b76-53a1329216f9",
+    "symbol": "MSOL",
+    "name": "Marinade Staked SOL",
+    "image": "https://coin-images.coingecko.com/coins/images/17752/large/mSOL.png",
+    "is_fiat": false
+  },
+  {
+    "id": "6531da6e-3688-4512-8080-a51a15ed14da",
+    "symbol": "HONEY",
+    "name": "Honey",
+    "image": "https://coin-images.coingecko.com/coins/images/54194/large/honey.png",
+    "is_fiat": false
+  },
+  {
+    "id": "8ec93156-c449-4778-9afc-ace03d740a27",
+    "symbol": "XCN",
+    "name": "Onyxcoin",
+    "image": "https://coin-images.coingecko.com/coins/images/24210/large/onyxlogo.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "80730dce-0c96-4a50-91cf-37bfedb0cb3f",
+    "symbol": "WLD",
+    "name": "Worldcoin",
+    "image": "https://coin-images.coingecko.com/coins/images/31069/large/worldcoin.jpeg",
+    "is_fiat": false
+  },
+  {
+    "id": "1d55fbc0-67b3-4b0d-99a2-f7d7e2718955",
+    "symbol": "LINK",
+    "name": "Chainlink",
+    "image": "https://coin-images.coingecko.com/coins/images/877/large/chainlink-new-logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "2d75395c-e5e2-4db7-9d6f-9d6797c2cf8e",
+    "symbol": "XLM",
+    "name": "Stellar",
+    "image": "https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "9aef30e1-404a-44c1-a8cf-c67697485100",
+    "symbol": "SAND",
+    "name": "The Sandbox",
+    "image": "https://coin-images.coingecko.com/coins/images/12129/large/sandbox_logo.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "9d2c7eec-5dd6-4df6-bcca-a8491295d662",
+    "symbol": "POPCAT",
+    "name": "Popcat",
+    "image": "https://coin-images.coingecko.com/coins/images/33760/large/image.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "52fc26a1-6624-4297-91b8-4612fdd619db",
+    "symbol": "WAL",
+    "name": "Walrus",
+    "image": "https://coin-images.coingecko.com/coins/images/54914/large/WAL_logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "22f153f1-1d46-4358-a398-1a3782daad64",
+    "symbol": "EGLD",
+    "name": "MultiversX",
+    "image": "https://coin-images.coingecko.com/coins/images/12335/large/egld-token-logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "20c483e4-3c75-4a79-af7e-39e26f7aafa7",
+    "symbol": "FET",
+    "name": "Artificial Superintelligence Alliance",
+    "image": "https://coin-images.coingecko.com/coins/images/5681/large/ASI.png",
+    "is_fiat": false
+  },
+  {
+    "id": "77301761-6ddf-4b0d-acc4-67d1886544fb",
+    "symbol": "ONDO",
+    "name": "Ondo",
+    "image": "https://coin-images.coingecko.com/coins/images/26580/large/ONDO.png",
+    "is_fiat": false
+  },
+  {
+    "id": "1e1db758-62bf-4d9f-be11-4d079c0d7172",
+    "symbol": "WIF",
+    "name": "dogwifhat",
+    "image": "https://coin-images.coingecko.com/coins/images/33566/large/dogwifhat.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "fffcb1e6-7fc5-47ab-b5fd-3ca836fe8056",
+    "symbol": "MKR",
+    "name": "Maker",
+    "image": "https://coin-images.coingecko.com/coins/images/1364/large/Mark_Maker.png",
+    "is_fiat": false
+  },
+  {
+    "id": "202a6e1d-9644-46b0-8979-d449c848002f",
+    "symbol": "APT",
+    "name": "Aptos",
+    "image": "https://coin-images.coingecko.com/coins/images/26455/large/aptos_round.png",
+    "is_fiat": false
+  },
+  {
+    "id": "80537bfe-f740-4462-bd57-df2a52a7ea36",
+    "symbol": "W",
+    "name": "Wormhole",
+    "image": "https://coin-images.coingecko.com/coins/images/35087/large/womrhole_logo_full_color_rgb_2000px_72ppi_fb766ac85a.png",
+    "is_fiat": false
+  },
+  {
+    "id": "b642cd91-3585-4607-bbc3-06d417a87c23",
+    "symbol": "CFX",
+    "name": "Conflux",
+    "image": "https://coin-images.coingecko.com/coins/images/13079/large/3vuYMbjN.png",
+    "is_fiat": false
+  },
+  {
+    "id": "6734975c-f85e-4c44-bf4e-ead4742fa9fa",
+    "symbol": "IP",
+    "name": "Story",
+    "image": "https://coin-images.coingecko.com/coins/images/54035/large/Transparent_bg.png",
+    "is_fiat": false
+  },
+  {
+    "id": "c626cde3-2865-4e6e-8838-fa4d1556b668",
+    "symbol": "NEO",
+    "name": "NEO",
+    "image": "https://coin-images.coingecko.com/coins/images/480/large/NEO_512_512.png",
+    "is_fiat": false
+  },
+  {
+    "id": "bc863e03-524d-4713-8788-bd6adeef20b7",
+    "symbol": "PI",
+    "name": "Pi Network",
+    "image": "https://coin-images.coingecko.com/coins/images/54342/large/pi_network.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "0e0f9cb9-fc92-41a2-aba9-59912f4c82ef",
+    "symbol": "OKB",
+    "name": "OKB",
+    "image": "https://coin-images.coingecko.com/coins/images/4463/large/WeChat_Image_20220118095654.png",
+    "is_fiat": false
+  },
+  {
+    "id": "3e491f38-531d-4ff0-8eb8-315618d753a7",
+    "symbol": "OP",
+    "name": "Optimism",
+    "image": "https://coin-images.coingecko.com/coins/images/25244/large/Optimism.png",
+    "is_fiat": false
+  },
+  {
+    "id": "25aef888-67d6-419b-b0c1-617333c264c9",
+    "symbol": "CORE",
+    "name": "Core",
+    "image": "https://coin-images.coingecko.com/coins/images/28938/large/file_589.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "6e0c84d2-5cb7-4a0e-ac8c-2c5085b0d5e6",
+    "symbol": "AR",
+    "name": "Arweave",
+    "image": "https://coin-images.coingecko.com/coins/images/4343/large/oRt6SiEN_400x400.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "2eab51d7-0003-41ba-9b79-3bbc7aab4c2a",
+    "symbol": "TON",
+    "name": "Toncoin",
+    "image": "https://coin-images.coingecko.com/coins/images/17980/large/photo_2024-09-10_17.09.00.jpeg",
+    "is_fiat": false
+  },
+  {
+    "id": "c2dae17c-46eb-483f-8980-e7b61e6bd070",
+    "symbol": "LDO",
+    "name": "Lido DAO",
+    "image": "https://coin-images.coingecko.com/coins/images/13573/large/Lido_DAO.png",
+    "is_fiat": false
+  },
+  {
+    "id": "f03b5a20-42db-499c-a6ee-bd46225f4c35",
+    "symbol": "SHIB",
+    "name": "Shiba Inu",
+    "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png",
+    "is_fiat": false
+  },
+  {
+    "id": "251eb3a1-826d-4dad-9ef0-60c934d8903c",
+    "symbol": "ETC",
+    "name": "Ethereum Classic",
+    "image": "https://coin-images.coingecko.com/coins/images/453/large/ethereum-classic-logo.png",
+    "is_fiat": false
+  },
+  {
+    "id": "f66db2dc-ea21-4d0d-bb8a-36c4074897d4",
+    "symbol": "SAFE",
+    "name": "Safe",
+    "image": "https://coin-images.coingecko.com/coins/images/27032/large/Artboard_1_copy_8circle-1.png",
+    "is_fiat": false
+  },
+  {
+    "id": "61adff38-a81c-4d86-ab33-18270700c3a7",
+    "symbol": "ENS",
+    "name": "Ethereum Name Service",
+    "image": "https://coin-images.coingecko.com/coins/images/19785/large/ENS.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "b29c24aa-4e53-496a-b04f-fff17d3e2724",
+    "symbol": "AERO",
+    "name": "Aerodrome Finance",
+    "image": "https://coin-images.coingecko.com/coins/images/31745/large/token.png",
+    "is_fiat": false
+  },
+  {
+    "id": "ac26f9b6-fe08-4905-9c3b-79a869179859",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "image": "https://coin-images.coingecko.com/coins/images/10481/large/Tether_Gold.png",
+    "is_fiat": false
+  },
+  {
+    "id": "f111dab8-55eb-4aee-9005-0cad3b2e0f8c",
+    "symbol": "STRK",
+    "name": "Starknet",
+    "image": "https://coin-images.coingecko.com/coins/images/26433/large/starknet.png",
+    "is_fiat": false
+  },
+  {
+    "id": "22cee1b7-b013-42f5-8fc3-ef65e3851759",
+    "symbol": "ZRO",
+    "name": "LayerZero",
+    "image": "https://coin-images.coingecko.com/coins/images/28206/large/ftxG9_TJ_400x400.jpeg",
+    "is_fiat": false
+  },
+  {
+    "id": "6d72b45b-641b-454b-996a-936b01651f97",
+    "symbol": "XDC",
+    "name": "XDC Network",
+    "image": "https://coin-images.coingecko.com/coins/images/2912/large/xdc-icon.png",
+    "is_fiat": false
+  },
+  {
+    "id": "4dae75c3-5d31-4ff1-b609-386488f03bbb",
+    "symbol": "PYTH",
+    "name": "Pyth Network",
+    "image": "https://coin-images.coingecko.com/coins/images/31924/large/pyth.png",
+    "is_fiat": false
+  },
+  {
+    "id": "82b55429-c0ca-472b-896c-ae1a3eff509c",
+    "symbol": "DYDX",
+    "name": "dYdX",
+    "image": "https://coin-images.coingecko.com/coins/images/32594/large/dydx.png",
+    "is_fiat": false
+  },
+  {
+    "id": "d2b393b0-c47b-4814-8cf0-a179cf0c89e3",
+    "symbol": "PLUME",
+    "name": "Plume",
+    "image": "https://coin-images.coingecko.com/coins/images/53623/large/plume-token.png",
+    "is_fiat": false
+  },
+  {
+    "id": "df5e0a32-dd4c-4c05-8901-fc7335384776",
+    "symbol": "ATH",
+    "name": "Aethir",
+    "image": "https://coin-images.coingecko.com/coins/images/36179/large/logogram_circle_dark_green_vb_green_%281%29.png",
+    "is_fiat": false
+  },
+  {
+    "id": "29b592e6-2468-4cd3-b04b-460d8b4e04dd",
+    "symbol": "GRASS",
+    "name": "Grass",
+    "image": "https://coin-images.coingecko.com/coins/images/40094/large/Grass.jpg",
+    "is_fiat": false
+  },
+  {
+    "id": "cbaa949b-d36b-4181-b2b7-8201d4df389b",
+    "symbol": "MEW",
+    "name": "cat in a dogs world",
+    "image": "https://coin-images.coingecko.com/coins/images/36440/large/MEW.png",
+    "is_fiat": false
+  },
+  {
+    "id": "080c8e87-837d-4e3d-94a8-5ba1928cf0bb",
+    "symbol": "GALA",
+    "name": "GALA",
+    "image": "https://coin-images.coingecko.com/coins/images/12493/large/GALA_token_image_-_200PNG.png",
+    "is_fiat": false
+  },
+  {
+    "id": "9d2d9cdb-3831-4493-8908-29f7160735df",
+    "symbol": "MNT",
+    "name": "Mantle",
+    "image": "https://coin-images.coingecko.com/coins/images/30980/large/Mantle-Logo-mark.png",
+    "is_fiat": false
+  }
+]

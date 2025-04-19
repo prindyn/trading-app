@@ -1,0 +1,66 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.env
+.venv
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs and testing
+*.log
+*.pid
+.cache/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Type checking
+.mypy_cache/
+.pyre/
+.dmypy.json
+pylint-report.txt
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# --- Docker ---
+docker-compose.override.yml
+
+# --- Secrets ---
+# Ignore env files across all service folders except .env.example
+envs/.env*
+!envs/.env.example
+services/**/.env
+services/**/.env.*
+!services/**/.env.example
+
+# --- Frontend (if any) ---
+node_modules/
+.nuxt/
+dist/
+*.tsbuildinfo
+*.lock
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

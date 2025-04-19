@@ -1,0 +1,31 @@
+[
+    {
+      "id": "ex-001",
+      "name": "Binance",
+      "apiKey": "************",
+      "apiSecret": "************",
+      "mode": "live",
+      "label": "Primary Binance Spot Account",
+      "createdAt": "2025-04-10T10:00:00Z"
+    },
+    {
+      "id": "ex-002",
+      "name": "Coinbase Pro",
+      "apiKey": "************",
+      "apiSecret": "************",
+      "passphrase": "********",
+      "mode": "sandbox",
+      "label": "Testnet Coinbase Futures",
+      "createdAt": "2025-04-09T14:23:00Z"
+    },
+    {
+      "id": "ex-003",
+      "name": "Kraken",
+      "apiKey": "************",
+      "apiSecret": "************",
+      "mode": "live",
+      "label": "Kraken Bot Trading",
+      "createdAt": "2025-04-08T08:30:00Z"
+    }
+  ]
+  
